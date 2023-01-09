@@ -1,4 +1,5 @@
 .homepageBannerBox {
+    cursor: pointer;
     margin: 0.8rem 0;
     background-color: #331d37;
     display: flex;
@@ -22,6 +23,7 @@
 }
 
 .homepageSquaresBox {
+    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,6 +71,8 @@
 }
 
 .homepageSquaresBox2 {
+    cursor: pointer;
+    margin-bottom: 2rem;
     .squareFirstBox {
         position: relative;
     }
@@ -79,14 +83,16 @@
         color: white;
         position: absolute;
         bottom: 8%;
-        left: 10%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .squareSecondText {
         color: white;
         position: absolute;
-        bottom: 8%;
-        left: 10%;
+        top: 50%;
+        right: -5%;
+        transform: translate(-50%, -50%);
     }
     .html-test {
         img {
@@ -98,10 +104,113 @@
         }
     }
 }
+
 .squraesBox2 {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+.homepageSquaresBox3 {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.6rem auto;
+    max-width: 85%;
+    margin: 0.8rem auto;
+    overflow: hidden;
+
+    .html-test {
+        width: 520px;
+        img {
+            transition: 2s;
+            scale: 1;
+        }
+        img:hover {
+            scale: 1.08;
+        }
+        h3 {
+            margin-top: 1rem;
+        }
+    }
+}
+
+.bannerBox2 {
+    cursor: pointer;
+    margin: 2rem auto;
+    width: 1600px;
+    height: 447px;
+    position: relative;
+    color: black;
+    overflow: hidden;
+
+    .homepageBannerBoxTitle2 {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+        max-width: 25rem;
+        color: black;
+    }
+
+    .html-test {
+        img {
+            transition: 2s;
+            scale: 1;
+        }
+        img:hover {
+            scale: 1.08;
+        }
+    }
+}
+
+.homepageSquaresBox4 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    .squeare-sale {
+        margin: 0.6rem;
+    }
+    img {
+        transition: 2s;
+        scale: 1;
+    }
+    img:hover {
+        scale: 1.08;
+    }
+}
+
+.bannerBox3 {
+    cursor: pointer;
+    margin: 2rem auto;
+    width: 1600px;
+    height: 447px;
+    position: relative;
+    color: white;
+    overflow: hidden;
+
+    .homepageBannerBoxTitle3 {
+        position: absolute;
+        top: 50%;
+        left: 12%;
+        transform: translateY(-50%);
+        max-width: 25rem;
+        color: white;
+    }
+
+    .html-test {
+        img {
+            transition: 2s;
+            scale: 1;
+        }
+        img:hover {
+            scale: 1.08;
+        }
+    }
 }
