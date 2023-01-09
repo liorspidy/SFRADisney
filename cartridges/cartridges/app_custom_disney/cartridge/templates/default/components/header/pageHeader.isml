@@ -59,7 +59,7 @@
         <div class="main-menu navbar-toggleable-sm menu-toggleable-left multilevel-dropdown d-none d-md-block bg-light border-top"
             id="sg-navbar-collapse">
             <div class="container low-header-container">
-                <div class="row ">
+                <div class="row">
                     <isinclude url="${URLUtils.url('Page-IncludeHeaderMenu')}" />
                 </div>
                 <div class="search hidden-xs-down low-header-search ">

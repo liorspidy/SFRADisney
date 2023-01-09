@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md bg-inverse col-12 ">
+<nav class="navbar navbar-expand-md bg-inverse col-12 headerTitle ">
     <div class="close-menu clearfix d-lg-none ">
         <div class="back pull-left ">
             <button role="button" aria-label="${Resource.msg('label.header.menu.back', 'common', null)}">
@@ -18,13 +18,15 @@
             <isif condition="${pdict.categories}">
                 <isloop items="${pdict.categories}" var="category">
                     <isif condition="${category.subCategories}">
-                        <li class="nav-item dropdown " role="presentation">
+                        <li class="nav-item dropdown border-animation" role="presentation">
                             <a href="<isprint value=" ${category.url}" encoding="htmldoublequote" />"
                             id="${category.id}" class="nav-link text-dark" role="button"
                             data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false" tabindex="0">${category.name}</a>
                             <isset name="menuItem" value="${category}" scope="page" />
                             <isinclude template="components/header/menuItem" />
+                            <span class="line">
+                            </span>
                         </li>
                     <iselse/>
                         <li class="nav-item " role="presentation">

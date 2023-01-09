@@ -1,9 +1,9 @@
-.top-promo{
+.top-promo {
     height: 49px;
     background-color: #0075e3 !important;
 }
 
-.top-promo-offers{
+.top-promo-offers {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -11,8 +11,8 @@
     right: 20px;
 }
 
-.header-banner-top-offers-left{
-    margin: auto 5px 0 0 ;
+.header-banner-top-offers-left {
+    margin: auto 5px 0 0;
 }
 
 .middle-container {
@@ -20,10 +20,10 @@
 }
 
 .middle-mini-cart {
-//   background-color: black;
+    //   background-color: black;
 }
 
-.middle-mini-cart{
+.middle-mini-cart {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,18 +36,17 @@
     align-items: center;
 }
 
-
-.low-header-search{
+.low-header-search {
     position: absolute;
     right: 20px;
 }
 
 .low-header-search-bar {
     border-radius: 50px;
-    background-color: #EBF6FC;
+    background-color: #ebf6fc;
     border: none;
-  }
+}
 
-  .low-header-search-button {
-    color: #0075E3;
-  }
+.low-header-search-button {
+    color: #0075e3;
+}
