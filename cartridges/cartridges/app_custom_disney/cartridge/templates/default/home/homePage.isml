@@ -2,11 +2,11 @@
     <isscript>
         var assets = require('*/cartridge/scripts/assets.js');
         assets.addCss('/css/homePage.css');
+        assets.addCss('/css/navBar.css');
     </isscript>
 
     <div style="width:100%;position:relative;color:white">
         <div class="homepageBannerBox">
-
             <isslot id="homepage-banner-1" context="global" description="home page banner" />
         </div>
 
@@ -69,6 +69,7 @@
             </a>
         </div>
     </iscomment>
+
     <div class="center">
         <div id="carouselExampleIndicators " class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">

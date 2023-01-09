@@ -1,33 +1,39 @@
 <header>
     <isinclude template="/components/header/skipNav" />
-    <div class="header-banner slide-up d-none">
+    <div class="header-banner slide-up d-none top-promo">
         <div class="container">
             <div class="d-flex justify-content-between">
-                <div></div>
                 <div class="content">
                     <isslot id="header-banner-m" description="Slot above the site header" context="global" />
                 </div>
-                <div class="close-button">
-                    <button type="button" class="close"
-                        aria-label="${Resource.msg('label.header.banner.close', 'common', null)}">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                <div class="top-promo-offers">
+                    <div class="header-banner-top-offers-left">
+                        <isslot id="header-banner-top-offers" description="header-banner-top-offers" context="global" />
+                    </div>
+                    <div class="close-button ">
+                        <button type="button" class="close"
+                            aria-label="${Resource.msg('label.header.banner.close', 'common', null)}">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <nav role="navigation">
-        <div class="header container">
-            <div class="row">
-                <div class="col-12">
+    <nav role="navigation ">
+        <div class="header container ">
+            <div class="row ">
+                <div class=" ">
                     <div class="navbar-header brand">
-                        <a class="logo-home" href="${URLUtils.url('Home-Show')}" title="${Resource.msgf('global.homepage.tooltip', 'common', null, Resource.msg('global.storename', 'common', null), Resource.msg(
-                                                                                        'global.home', 'common', null))}">
-                            <img class="hidden-md-down" src="${URLUtils.staticURL('/images/logo.svg')}"
-                                alt="${Resource.msg('global.storename', 'common', null)}" />
-                            <img class="d-lg-none" src="${URLUtils.staticURL('/images/logo-small.svg')}"
-                                alt="${Resource.msg('global.storename', 'common', null)}" />
-                        </a>
+                        <isslot id="main-logo" context="global" description="logo" />
+                        <iscomment> <a class="logo-home" href="${URLUtils.url('Home-Show')}"
+                                title="${Resource.msgf('global.homepage.tooltip', 'common', null, Resource.msg('global.storename', 'common', null), Resource.msg(
+                                       'global.home', 'common', null))}">
+                                <img class="hidden-md-down" src="${URLUtils.staticURL('/images/logo.svg')}"
+                                    alt="${Resource.msg('global.storename', 'common', null)}" />
+                                <img class="d-lg-none" src="${URLUtils.staticURL('/images/logo-small.svg')}"
+                                    alt="${Resource.msg('global.storename', 'common', null)}" />
+                            </a> </iscomment>
                     </div>
                     <div class="navbar-header">
                         <div class="pull-left">
@@ -40,23 +46,24 @@
                                 &#9776; <span class="hidden-xs-down">Menu</span>
                             </button>
                         </div>
-                        <div class="pull-right">
-                            <div class="search hidden-xs-down">
-                                <isinclude template="components/header/search" />
-                            </div>
-                            <div class="minicart" data-action-url="${URLUtils.url('Cart-MiniCartShow')}">
+                        <div class="pull-right middle-mini-cart">
+                            <div class="minicart " data-action-url="${URLUtils.url('Cart-MiniCartShow')}">
                                 <isinclude url="${URLUtils.url('Cart-MiniCart')}" />
+                                <h6>My Bag</h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main-menu navbar-toggleable-sm menu-toggleable-left multilevel-dropdown d-none d-md-block"
+        <div class="main-menu navbar-toggleable-sm menu-toggleable-left multilevel-dropdown d-none d-md-block bg-light border-top"
             id="sg-navbar-collapse">
-            <div class="container">
-                <div class="row">
+            <div class="container low-header-container">
+                <div class="row ">
                     <isinclude url="${URLUtils.url('Page-IncludeHeaderMenu')}" />
+                </div>
+                <div class="search hidden-xs-down low-header-search ">
+                    <isinclude template="components/header/search" />
                 </div>
             </div>
         </div>
