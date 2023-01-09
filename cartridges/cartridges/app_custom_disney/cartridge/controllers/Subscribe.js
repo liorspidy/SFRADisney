@@ -37,7 +37,7 @@ server.post('HandleSub',(req,res,next)=>{
         CustomObject.custom.lastName = subscribeForm.lastName.value;
         CustomObject.custom.phone = subscribeForm.phone.value;
 
-        res.print('saved');
+        res.render('thankyouPage',{firstName:subscribeForm.firstName.value,lastName:subscribeForm.lastName.value})
 
         Transaction.commit()
 

@@ -1,0 +1,14 @@
+<isdecorate template="common/layout/page">
+
+<isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addCss('/css/thankyouPage.css');
+    </isscript>
+
+    <div class="thankyou-container">
+        <img src="https://cdn-ssl.s7.disneystore.com/is/image/ShopDisney/tb_HP-stitchplush_20230109_2x?fit=constrain&cropN=0,0,1,1&fmt=webp&qlt=70&wid=1600" alt="thank you">
+        <h3>Thank You  <br/> ${pdict.firstName} ${pdict.lastName}</h3>
+    </div>
+    
+
+</isdecorate>
