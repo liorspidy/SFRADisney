@@ -1,0 +1,69 @@
+<isdecorate template="common/layout/page">
+    <h1 class="text-center display-5 text-primary mt-4">Subscribe</h1>
+
+    <div class="container">
+        
+        <div class="row justify-content-center">
+        
+            <div class="col-sm-10 col-md-7 col-lg-5">
+            
+                    <form method="POST" action="${URLUtils.url('Subscribe-HandleSub')}">
+                    <div class="card-body">
+                        <div class="form-group
+                            <isif condition="${pdict.subscribeForm.firstName.mandatory === true}">required</isif>">
+                            <label class="form-control-label" for="firstName">
+                                <isprint value="${pdict.subscribeForm.firstName.label}" encoding="htmlcontent" />
+                            </label>
+                            <input type="text" class="form-control" id="firstName"
+                            <isprint value="${pdict.subscribeForm.firstName.attributes}" encoding="off" />>
+                            <div class="invalid-feedback"></div>
+                        </div>
+
+                        <div class="form-group
+                            <isif condition="${pdict.subscribeForm.lastName.mandatory === true}">required</isif>">
+                            <label class="form-control-label" for="lastName">
+                                <isprint value="${pdict.subscribeForm.lastName.label}" encoding="htmlcontent" />
+                            </label>
+                            <input type="text" class="form-control" id="lastName"
+                            <isprint value="${pdict.subscribeForm.lastName.attributes}" encoding="off" />>
+                            <div class="invalid-feedback"></div>
+                        </div>
+
+                        <div class="form-group
+                            <isif condition="${pdict.subscribeForm.phone.mandatory === true}">required</isif>">
+                            <label class="form-control-label" for="phone">
+                                <isprint value="${pdict.subscribeForm.phone.label}" encoding="htmlcontent" />
+                            </label>
+                            <input type="text" class="form-control" id="phone"
+                            <isprint value="${pdict.subscribeForm.phone.attributes}" encoding="off" />>
+                            <div class="invalid-feedback"></div>
+                        </div>
+
+                        <div class="form-group
+                            <isif condition="${pdict.subscribeForm.email.mandatory === true}">required</isif>">
+                            <label class="form-control-label" for="email">
+                                <isprint value="${pdict.subscribeForm.email.label}" encoding="htmlcontent" />
+                            </label>
+                            <input type="text" class="form-control" id="lastName"
+                            <isprint value="${pdict.subscribeForm.email.attributes}" encoding="off" />>
+                            <div class="invalid-feedback"></div>
+                            <isif condition="${pdict.emailerror!=null}" >
+                                <h5 class="text-danger">${pdict.emailerror}</h5>
+                            </isif>
+                        </div>
+
+
+                        <div class="d-flex justify-content-around mt-5">
+                            <a href="${URLUtils.url('Home-Show')}" class="btn btn-outline-danger" >Cancel</a>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+
+                    </div>
+                    </form>
+            </div>
+        
+        </div>
+    
+        
+    </div>
+</isdecorate>
