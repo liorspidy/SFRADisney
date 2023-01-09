@@ -1,0 +1,13 @@
+.thankyou-container{
+    width: 100%;
+    position: relative;
+    img{
+        width: 100%;
+    }
+    h3{
+        position: absolute;
+        left: 10%;
+        top:50%;
+        transform: translateY(-50%);
+    }
+}
