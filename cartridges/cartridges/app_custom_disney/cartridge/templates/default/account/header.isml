@@ -1,6 +1,6 @@
 <isif condition="${pdict.name === null}">
     <div class="user hidden-md-down">
-        <a class="a-tag" href="${URLUtils.https('Login-Show')}" role="button"
+        <a class="login-icon-a" href="${URLUtils.https('Login-Show')}" role="button"
             aria-label="${Resource.msg('label.header.loginbutton', 'account', null)}">
             <div class="login-icon"></div>
             <span class="user-message">${Resource.msg('link.header.login', 'account', null)}</span>
