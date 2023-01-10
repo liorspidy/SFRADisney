@@ -27,38 +27,6 @@
     <div class="center">
         <isslot id="carousel-title-1" context="global" description="carousel-title-1" />
 
-<<<<<<< HEAD
-        <div id="carouselExampleIndicators " class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item d-flex justify-content-between active">
-                    <div class="d-flex flex-wrap">
-                        <img class="d-block "
-                            src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6003040901909?fmt=webp&qlt=70&wid=322&hei=322"
-                            alt="First slide">
-                        <h3 class="mx-auto w-2rem">Snow White Limited Edition Doll – Snow White and the Seven Dwarfs
-                            85th
-                            Anniversary – 17''</h3>
-                    </div>
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841040739139?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Second slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2890107019104?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Third slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841055179111?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="fourth slide">
-                </div>
-                <div class="carousel-item d-flex justify-content-between">
-                    <iscomment>
-                        <isslot id="carousel-tem-5" context="global" description="carousel-tem-5" />
-                    </iscomment>
-=======
         <iscomment>
             <div id="carouselExampleIndicators " class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -95,7 +63,6 @@
                             src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841055179111?fmt=webp&qlt=70&wid=322&hei=322"
                             alt="Third slide">
                     </div>
->>>>>>> dev
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
