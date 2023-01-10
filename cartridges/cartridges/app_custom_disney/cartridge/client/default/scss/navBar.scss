@@ -1,0 +1,52 @@
+.top-promo {
+    height: 49px;
+    background-color: #0075e3 !important;
+}
+
+.top-promo-offers {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+}
+
+.header-banner-top-offers-left {
+    margin: auto 5px 0 0;
+}
+
+.middle-container {
+    width: 100%;
+}
+
+.middle-mini-cart {
+    //   background-color: black;
+}
+
+.middle-mini-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.low-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.low-header-search {
+    position: absolute;
+    right: 20px;
+}
+
+.low-header-search-bar {
+    border-radius: 50px !important;
+    background-color: #ebf6fc !important;
+    border: none !important;
+}
+
+.low-header-search-button {
+    color: #0075e3 !important;
+}

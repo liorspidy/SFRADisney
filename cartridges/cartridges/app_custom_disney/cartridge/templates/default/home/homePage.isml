@@ -2,11 +2,11 @@
     <isscript>
         var assets = require('*/cartridge/scripts/assets.js');
         assets.addCss('/css/homePage.css');
+        assets.addCss('/css/navBar.css');
     </isscript>
 
     <div style="width:100%;position:relative;color:white">
         <div class="homepageBannerBox">
-
             <isslot id="homepage-banner-1" context="global" description="home page banner" />
         </div>
 
@@ -71,6 +71,8 @@
     </iscomment>
 
     <div class="center">
+        <isslot id="carousel-title-1" context="global" description="carousel-title-1" />
+
         <div id="carouselExampleIndicators " class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -112,5 +114,72 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    </div>
+
+    <isslot id="squares-title-2" context="global" description="carousel-title-1" />
+
+    <div class="homepageSquaresBox2">
+        <div class="squraesBox2">
+            <div class="squareFirstBox">
+                <isslot id="square-first" context="global" description="square-first" />
+                <div class="squareFirstText">
+                    <isslot id="square-first-title" context="global" description="square-first-title" />
+                </div>
+            </div>
+
+            <div class="squareSecondBox">
+                <isslot id="square-second" context="global" description="square-second" />
+                <div class="squareSecondText">
+                    <isslot id="square-second-title" context="global" description="square-second-title" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <isslot id="squares-title-3" context="global" description="carousel-title-1" />
+
+    <div class="homepageSquaresBox3">
+
+        <isslot id="homepage-squares3-first" context="global" description="homepage-squares3-first" />
+        <isslot id="homepage-squares3-second" context="global" description="homepage-squares3-second" />
+        <isslot id="homepage-squares3-third" context="global" description="homepage-squares3-third" />
+
+    </div>
+
+    <div class="bannerBox2">
+        <div class="homepageBannerBox2">
+            <isslot id="homepage-banner-2" context="global" description="homepage-banner-2" />
+        </div>
+
+        <div class="homepageBannerBoxTitle2">
+            <isslot id="homepage-banner-2-title" context="global" description="homepage-banner-2-title" />
+        </div>
+
+    </div>
+
+    <div class="homepageSquaresBox4">
+        <div class="squeare-sale">
+            <isslot id="homepage-squares4-first" context="global" description="homepage-squares4-first" />
+        </div>
+        <div class="squeare-sale">
+            <isslot id="homepage-squares4-second" context="global" description="homepage-squares4-second" />
+        </div>
+        <div class="squeare-sale">
+            <isslot id="homepage-squares4-third" context="global" description="homepage-squares4-third" />
+        </div>
+        <div class="squeare-sale">
+            <isslot id="homepage-squares4-fourth" context="global" description="homepage-squares4-fourth" />
+        </div>
+    </div>
+
+    <div class="bannerBox3">
+        <div class="homepageBannerBox3">
+            <isslot id="homepage-banner-3" context="global" description="homepage-banner-3" />
+        </div>
+
+        <div class="homepageBannerBoxTitle3">
+            <isslot id="homepage-banner-3-title" context="global" description="homepage-banner-3-title" />
+        </div>
+
     </div>
 </isdecorate>
