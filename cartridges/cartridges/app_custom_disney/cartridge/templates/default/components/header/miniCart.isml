@@ -6,7 +6,7 @@
         <div class="minicart-qty">
             <h6>My Bag</h6>
             (
-            <isprint value="${pdict.quantityTotal}" formatter="##" />)
+            <isprint value="${pdict.quantityTotal}" formatter="##" /> )
         </div>
     </a>
 </div>

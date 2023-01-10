@@ -39,10 +39,9 @@
                         </ul>
                     </div>
                     <div class="navbar-header brand">
-                        <a class="logo-home" href="${URLUtils.url('Home-Show')}"
-                            title="${Resource.msgf('global.homepage.tooltip', 'common', null, Resource.msg('global.storename', 'common', null), Resource.msg(
-                                   'global.home', 'common', null))}">
-                            <img class="hidden-md-down" src="${URLUtils.staticURL('/images/logo.svg')}"
+                        <a class="logo-home" href="${URLUtils.url('Home-Show')}" title="${Resource.msgf('global.homepage.tooltip', 'common', null, Resource.msg('global.storename', 'common', null), Resource.msg(
+                                                                                        'global.home', 'common', null))}">
+                            <img class="hidden-md-down disney-banner" src="${URLUtils.staticURL('/images/logo.svg')}"
                                 alt="${Resource.msg('global.storename', 'common', null)}" />
                             <img class="d-lg-none" src="${URLUtils.staticURL('/images/logo-small.svg')}"
                                 alt="${Resource.msg('global.storename', 'common', null)}" />
@@ -50,8 +49,12 @@
                     </div>
                     <div class="navbar-header">
                         <div class="pull-left">
-                            <div class="hidden-md-down">
+                            <div class="hidden-md-down user-box">
                                 <isinclude url="${URLUtils.url('Account-Header')}" />
+                                <div class="subscribe-header-box">
+                                    <div class="subscribe-header-icon"></div>
+                                    <a class="subscribe-header" href="${URLUtils.url('Subscribe')}">Subscribe</a>
+                                </div>
                                 <isinclude url="${URLUtils.url('Page-Locale')}" />
                             </div>
                             <button class="navbar-toggler d-md-none" type="button" aria-controls="sg-navbar-collapse"
