@@ -24,6 +24,7 @@
   -webkit-box-pack: end !important;
       -ms-flex-pack: end !important;
           justify-content: flex-end !important;
+  margin-right: 20px;
 }
 
 .header-banner-top-offers-left {
@@ -38,20 +39,54 @@
   width: 15% !important;
 }
 
-.middle-mini-cart {
+.navbar-left {
+  position: absolute !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-top: 25px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  left: 50px;
+}
+.navbar-left li:first-child {
+  list-style: none;
+}
+.navbar-left li {
+  margin-right: 30px;
+}
+
+.mini-cart-container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+.mini-cart-container h6 {
+  margin: 25px 0 !important;
+}
+
+.minicart-quantity {
+  top: -3px !important;
+  left: 60px !important;
+  background: none !important;
+  color: black !important;
+  font-size: 15px !important;
+}
+
+.minicart-icon {
+  color: #0075E3;
+}
+
+.login-icon {
+  scale: 1.5;
+  color: #0075E3;
+  margin-right: 10px;
 }
 
 .low-header-container {

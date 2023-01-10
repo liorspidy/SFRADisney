@@ -24,11 +24,24 @@
         <div class="header container header-container">
             <div class="row header-row-container">
                 <div class="header-row">
+                    <div>
+                        <ul class="navbar-left">
+                            <li>
+                                <a href="https://support.shopdisney.com/hc/en-us">Guest Services</a>
+                            </li>
+                            <li>
+                                <a href="https://www.shopdisney.com/disney-visa-card.html?CELL=63NG06">Disney® Visa®
+                                    Card</a>
+                            </li>
+                            <li>
+                                <a href="https://www.shopdisney.com/store-locator">Store Locator</a>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="navbar-header brand">
                         <isslot id="main-logo" context="global" description="logo" />
-                        <iscomment> <a class="logo-home" href="${URLUtils.url('Home-Show')}"
-                                title="${Resource.msgf('global.homepage.tooltip', 'common', null, Resource.msg('global.storename', 'common', null), Resource.msg(
-                                       'global.home', 'common', null))}">
+                        <iscomment> <a class="logo-home" href="${URLUtils.url('Home-Show')}" title="${Resource.msgf('global.homepage.tooltip', 'common', null, Resource.msg('global.storename', 'common', null), Resource.msg(
+                                                                                                    'global.home', 'common', null))}">
                                 <img class="hidden-md-down" src="${URLUtils.staticURL('/images/logo.svg')}"
                                     alt="${Resource.msg('global.storename', 'common', null)}" />
                                 <img class="d-lg-none" src="${URLUtils.staticURL('/images/logo-small.svg')}"
@@ -46,11 +59,11 @@
                                 &#9776; <span class="hidden-xs-down">Menu</span>
                             </button>
                         </div>
-                        <div class="pull-right middle-mini-cart">
+                        <div class="pull-right mini-cart-container">
                             <div class="minicart " data-action-url="${URLUtils.url('Cart-MiniCartShow')}">
                                 <isinclude url="${URLUtils.url('Cart-MiniCart')}" />
-                                <h6>My Bag</h6>
                             </div>
+                            <h6>My Bag</h6>
                         </div>
                     </div>
                 </div>

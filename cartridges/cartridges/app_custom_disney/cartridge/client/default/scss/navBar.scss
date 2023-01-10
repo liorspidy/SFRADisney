@@ -18,6 +18,7 @@
 
 .header-row-container {
     justify-content: flex-end !important;
+    margin-right: 20px;
 }
 
 .header-banner-top-offers-left {
@@ -32,15 +33,47 @@
     width: 15% !important;
 }
 
-.middle-mini-cart {
-    //   background-color: black;
+.navbar-left{
+    position: absolute !important;
+    display: flex ;
+    margin-top: 25px;
+    flex-direction: row;
+    left: 50px;
+
+    li:first-child{
+        list-style: none;
+    }
+    li{
+        margin-right: 30px;
+    }
 }
 
-.middle-mini-cart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+
+.mini-cart-container{
+    display: flex !important;
+    flex-direction: row !important;
+    h6{
+        margin: 25px 0 !important;
+    }
+}
+
+.minicart-quantity{
+    top: -3px !important;
+    left: 60px !important;
+    background: none !important;
+    color: black !important;
+    font-size: 15px !important;
+}
+
+.minicart-icon {
+    color: #0075E3;
+
+}
+
+.login-icon {
+    scale: 1.5;
+    color: #0075E3;
+    margin-right: 10px;
 }
 
 .low-header-container {
