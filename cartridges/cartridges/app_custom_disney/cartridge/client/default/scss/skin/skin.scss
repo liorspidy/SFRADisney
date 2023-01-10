@@ -93,7 +93,7 @@ header ~ #maincontent .container a:not(.btn-primary, .btn-outline-primary) {
 .nav-item .nav-link:focus,
 .nav-item.show .nav-link {
     background-color: transparent;
-    color: blue !important;
+    color: #0075e3 !important;
 }
 
 .line {
@@ -101,13 +101,13 @@ header ~ #maincontent .container a:not(.btn-primary, .btn-outline-primary) {
     left: 50%;
     bottom: 0;
     width: 0;
-    border: 3px solid blue;
+    border: 4px solid #0075e3;
     display: none;
 }
 
 .nav-item.show:hover .line {
     display: block;
-    animation: 1s bottom-border ease-in-out forwards;
+    animation: 0.8s bottom-border ease-in-out forwards;
 }
 
 @keyframes bottom-border {

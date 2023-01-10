@@ -24,100 +24,57 @@
 
     </div>
 
-    <iscomment>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active d-flex flex-wrap">
-                    <img class="d-block"
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841041409042?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="First slide">
-                    <img class="d-block"
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841040739074?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Second slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841040739081?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Third slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841055179119?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Third slide">
-                </div>
-                <div class="carousel-item d-flex flex-wrap">
-                    <img class="d-block"
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841041409042?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="First slide">
-                    <img class="d-block"
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841040739074?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Second slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841040739081?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Third slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841055179119?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Third slide">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </iscomment>
-
     <div class="center">
         <isslot id="carousel-title-1" context="global" description="carousel-title-1" />
 
-        <div id="carouselExampleIndicators " class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item d-flex active">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6003040901909?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="First slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841040739139?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Second slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2890107019104?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Third slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841055179111?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="fourth slide">
+        <iscomment>
+            <div id="carouselExampleIndicators " class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item d-flex active">
+                        <img class="d-block "
+                            src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6003040901909?fmt=webp&qlt=70&wid=322&hei=322"
+                            alt="First slide">
+                        <img class="d-block "
+                            src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841040739139?fmt=webp&qlt=70&wid=322&hei=322"
+                            alt="Second slide">
+                        <img class="d-block "
+                            src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2890107019104?fmt=webp&qlt=70&wid=322&hei=322"
+                            alt="Third slide">
+                        <img class="d-block "
+                            src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841055179111?fmt=webp&qlt=70&wid=322&hei=322"
+                            alt="fourth slide">
+                    </div>
+                    <div class="carousel-item d-flex">
+                        <img class="d-block "
+                            src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6003040901909?fmt=webp&qlt=70&wid=322&hei=322"
+                            alt="First slide">
+                        <img class="d-block "
+                            src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841040739139?fmt=webp&qlt=70&wid=322&hei=322"
+                            alt="Second slide">
+                        <img class="d-block "
+                            src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2890107019104?fmt=webp&qlt=70&wid=322&hei=322"
+                            alt="Third slide">
+                        <img class="d-block "
+                            src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841055179111?fmt=webp&qlt=70&wid=322&hei=322"
+                            alt="Third slide">
+                    </div>
                 </div>
-                <div class="carousel-item d-flex">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6003040901909?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="First slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841040739139?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Second slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2890107019104?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Third slide">
-                    <img class="d-block "
-                        src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/2841055179111?fmt=webp&qlt=70&wid=322&hei=322"
-                        alt="Third slide">
-                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+        </iscomment>
+        <isinclude template="product/components/imageCarousel" />
     </div>
 
     <isslot id="squares-title-2" context="global" description="carousel-title-1" />
