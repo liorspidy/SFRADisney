@@ -57,11 +57,11 @@
 }
 
 .low-header-search-bar {
-  border-radius: 50px;
-  background-color: #ebf6fc;
-  border: none;
+  border-radius: 50px !important;
+  background-color: #ebf6fc !important;
+  border: none !important;
 }
 
 .low-header-search-button {
-  color: #0075e3;
+  color: #0075e3 !important;
 }
