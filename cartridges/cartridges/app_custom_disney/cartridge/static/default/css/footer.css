@@ -43,6 +43,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .footer-banner .footer-banner-data div h1 {
   font-size: 100px;

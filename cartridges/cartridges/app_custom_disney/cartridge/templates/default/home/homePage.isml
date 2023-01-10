@@ -2,6 +2,7 @@
     <isscript>
         var assets = require('*/cartridge/scripts/assets.js');
         assets.addCss('/css/homePage.css');
+        assets.addCss('/css/navBar.css');
         assets.addCss('/css/footer.css');
     </isscript>
 
