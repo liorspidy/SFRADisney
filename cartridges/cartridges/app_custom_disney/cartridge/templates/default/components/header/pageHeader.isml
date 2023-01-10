@@ -21,9 +21,9 @@
         </div>
     </div>
     <nav role="navigation ">
-        <div class="header container ">
-            <div class="row ">
-                <div class=" ">
+        <div class="header container header-container">
+            <div class="row header-row-container">
+                <div class="header-row">
                     <div class="navbar-header brand">
                         <isslot id="main-logo" context="global" description="logo" />
                         <iscomment> <a class="logo-home" href="${URLUtils.url('Home-Show')}"

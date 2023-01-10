@@ -11,12 +11,25 @@
     right: 20px;
 }
 
+.header-container {
+    width: 100% !important;
+    max-width: 100%;
+}
+
+.header-row-container {
+    justify-content: flex-end !important;
+}
+
 .header-banner-top-offers-left {
     margin: auto 5px 0 0;
 }
 
 .middle-container {
     width: 100%;
+}
+
+.header-row {
+    width: 15% !important;
 }
 
 .middle-mini-cart {
