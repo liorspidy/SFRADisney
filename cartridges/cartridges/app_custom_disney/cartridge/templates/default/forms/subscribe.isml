@@ -54,8 +54,8 @@
 
 
                         <div class="d-flex justify-content-around mt-5">
-                            <a href="${URLUtils.url('Home-Show')}" class="btn btn-outline-danger" >Cancel</a>
-                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                            <a href="${URLUtils.url('Home-Show')}" class="btn btn-outline-danger" >${Resource.msg('subscribeForm.btn.cancel','forms',null)}</a>
+                            <button type="submit" class="btn btn-primary">${Resource.msg('subscribeForm.btn.subscribe','forms',null)}</button>
                         </div>
 
                     </div>

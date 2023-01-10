@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <form>
-    <field formid="firstName" label="First Name" type="string" mandatory="true"  max-length="50"/>
-    <field formid="lastName" label="Last Name" type="string" mandatory="true" max-length="50"/>
-    <field formid="phone" label="Phone" type="string" mandatory="true" max-length="50"/>
-    <field formid="email" label="email" type="string" mandatory="true" 
+    <field formid="firstName" label="subscribeForm.label.firstName" type="string" mandatory="true"  max-length="50"/>
+    <field formid="lastName" label="subscribeForm.label.lastName" type="string" mandatory="true" max-length="50"/>
+    <field formid="phone" label="subscribeForm.label.phone" type="string" mandatory="true" max-length="50"/>
+    <field formid="email" label="subscribeForm.label.email" type="string" mandatory="true" 
 	
     	regexp="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$"
     	parse-error="error.message.parse.email" 
