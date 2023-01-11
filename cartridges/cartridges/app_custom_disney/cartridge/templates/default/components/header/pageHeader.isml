@@ -53,6 +53,11 @@
                             <div class="hidden-md-down">
                                 <isinclude url="${URLUtils.url('Account-Header')}" />
                                 <isinclude url="${URLUtils.url('Page-Locale')}" />
+                               
+
+                                
+                                <a style="margin-right:10px" href="${URLUtils.url('Subscribe')}">Subscribe</a>
+                                
                             </div>
                             <button class="navbar-toggler d-md-none" type="button" aria-controls="sg-navbar-collapse"
                                 aria-expanded="false" aria-label="Toggle navigation">

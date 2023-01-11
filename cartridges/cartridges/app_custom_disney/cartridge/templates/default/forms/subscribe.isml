@@ -1,5 +1,5 @@
 <isdecorate template="common/layout/page">
-    <h1 class="text-center display-5 text-primary mt-4">Subscribe</h1>
+    <h1 class="text-center display-5 text-primary mt-4">${Resource.msg('subscribeForm.pageTitle','forms',null)}</h1>
 
     <div class="container">
         
