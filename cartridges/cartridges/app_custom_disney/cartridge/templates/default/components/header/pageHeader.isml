@@ -52,16 +52,18 @@
                             <div class="hidden-md-down user-box">
                                 <isinclude url="${URLUtils.url('Account-Header')}" />
                                 <div class="subscribe-header-box">
-                                    <div class="subscribe-header-icon"></div>
                                     <a class="subscribe-header" href="${URLUtils.url('Subscribe')}">
-                                        ${Resource.msg('link.header.subscribe', 'middleHeader', null)}
+                                        <div class="subscribe-header-icon"></div>
+                                        <div class="subscribe-header-text">
+                                            ${Resource.msg('link.header.subscribe', 'middleHeader', null)}
+                                        </div>
                                     </a>
                                 </div>
                                 <isinclude url="${URLUtils.url('Page-Locale')}" />
-                               
 
-                                
-                                
+
+
+
                             </div>
                             <button class="navbar-toggler d-md-none" type="button" aria-controls="sg-navbar-collapse"
                                 aria-expanded="false" aria-label="Toggle navigation">
