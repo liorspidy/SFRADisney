@@ -6,11 +6,11 @@
         <div class="footer-banner-data">
             <div>
                 <h1><span>$</span>100</h1>
-                <h3>Statement <br /> Credit</h3>
+                <h3>${Resource.msg('footer.banner.statment','footer',null)} <br /> ${Resource.msg('footer.banner.creadit','footer',null)}</h3>
             </div>
-            <p>After first purchase with a new Disney Visa Card</p>
+            <p>${Resource.msg('footer.banner.text','footer',null)}</p>
             <small>Restrictions apply</small>
-            <a href="https://www.shopdisney.com/disney-visa-card.html?CELL=63NG06">Learn More</a>
+            <a href="https://www.shopdisney.com/disney-visa-card.html?CELL=63NG06">${Resource.msg('footer.banner.link','footer',null)}</a>
         </div>
 
         <div class="footer-banner-image">
@@ -25,14 +25,14 @@
         <div class="row  justify-content-between ">
 
             <div class="col-md-4 d-flex flex-column ">
-                <p class="mb-4">Sign up for our emails to get the inside scoop on special offers and new products.</p>
+                <p class="mb-4">${Resource.msg('footer.nav.text','footer',null)}</p>
 
                 <div class="d-flex mb-4 items-center">
                     <a class="btn btn-primary mr-4" style="height:40px" href="${URLUtils.url('Login-Show')}">
-                        <p> Sign up</p>
+                        <p>${Resource.msg('footer.nav.signupBtn','footer',null)}</p>
                     </a>
                     <div>
-                        <p>Stay in Touch <br> <a href="#">Privacy Policy</a> </p>
+                        <p>${Resource.msg('footer.nav.stayinTouch','footer',null)}<br> <a href="#">${Resource.msg('footer.nav.privacyPolicy','footer',null)}</a> </p>
                     </div>
                 </div>
 
@@ -94,26 +94,26 @@
                 </div>
                 <div>
                     <a href="${URLUtils.url('D23')}">D23</a>
-                    <a href="https://www.shopdisney.com/disney-parks/">Careers</a>
-                    <a href="https://www.shopdisney.com/franchises/disney/">Contact Us</a>
-                    <a href="https://www.shopdisney.com/franchises/pixar/">Site Map</a>
-                    <a href="https://www.shopdisney.com/franchises/star-wars/">New</a>
-                    <a href="https://www.shopdisney.com/franchises/marvel/">Sale</a>
+                    <a href="https://www.shopdisney.com/disney-parks/">${Resource.msg('footer.nav.link.careers','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/franchises/disney/">${Resource.msg('footer.nav.link.contactUs','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/franchises/pixar/">${Resource.msg('footer.nav.link.siteMap','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/franchises/star-wars/">${Resource.msg('footer.nav.link.New','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/franchises/marvel/">${Resource.msg('footer.nav.link.Sale','footer',null)}</a>
                 </div>
                 <div>
-                    <a href="https://www.shopdisney.com/characters.html">Order Tracking</a>
-                    <a href="https://www.shopdisney.com/disney-parks/">Return/Exchange</a>
-                    <a href="https://www.shopdisney.com/franchises/disney/">Shipping Info</a>
-                    <a href="https://www.shopdisney.com/franchises/pixar/">Account Info</a>
-                    <a href="https://www.shopdisney.com/franchises/star-wars/">Store Locator</a>
+                    <a href="https://www.shopdisney.com/characters.html">${Resource.msg('footer.nav.link.orderTracking','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/disney-parks/">${Resource.msg('footer.nav.link.returnExchange','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/franchises/disney/">${Resource.msg('footer.nav.link.shippingInfo','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/franchises/pixar/">${Resource.msg('footer.nav.link.accountInfo','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/franchises/star-wars/">${Resource.msg('footer.nav.link.storeLocator','footer',null)}</a>
                 </div>
                 <div>
-                    <a href="https://www.shopdisney.com/characters.html">Disney Gift Cards</a>
-                    <a href="https://www.shopdisney.com/disney-parks/">Guest Services</a>
-                    <a href="https://www.shopdisney.com/franchises/disney/">Affiliates</a>
-                    <a href="https://www.shopdisney.com/franchises/pixar/">About shopDisney</a>
+                    <a href="https://www.shopdisney.com/characters.html">${Resource.msg('footer.nav.link.giftCards','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/disney-parks/">${Resource.msg('footer.nav.link.guestServices','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/franchises/disney/">${Resource.msg('footer.nav.link.affiliates','footer',null)}</a>
+                    <a href="https://www.shopdisney.com/franchises/pixar/">${Resource.msg('footer.nav.link.aboutShopDisney','footer',null)}</a>
                     <a href="https://www.shopdisney.com/franchises/star-wars/">Disney® Visa® Card</a>
-                    <a href="https://www.shopdisney.com/franchises/marvel/">Personalization Shop</a>
+                    <a href="https://www.shopdisney.com/franchises/marvel/">${Resource.msg('footer.nav.link.personalizationShop','footer',null)}s</a>
                 </div>
 
 
@@ -124,23 +124,17 @@
 
         <div class="row buttom-links my-4">
             <div class="col-12">
-                <a href="© Disney, All Rights Reserved">© Disney, All Rights Reserved </a> <span>|<span>
-                        <a href="© Disney, All Rights Reserved"> Terms of Use </a> <span>|<span>
-                                <a href="© Disney, All Rights Reserved"> Additional Content Information </a>
-                                <span>|<span>
-                                        <a href="© Disney, All Rights Reserved"> Privacy Policy</a> <span>|<span>
-                                                <a href="© Disney, All Rights Reserved"> Do Not Sell My Personal
-                                                    Information</a> <span>|<span>
-                                                        <a href="© Disney, All Rights Reserved"> Children's Online
-                                                            Privacy Policy </a> <span>|<span>
-                                                                <a href="© Disney, All Rights Reserved"> Interest-Based
-                                                                    Ads</a> <span>|<span>
-                                                                        <a href="© Disney, All Rights Reserved">California
-                                                                            Transparency in Supply Chains Act</a>
+                <a href="© Disney, All Rights Reserved">© Disney, ${Resource.msg('footer.buttom.link.allRightsReserved','footer',null)} </a> <span>|<span>
+                <a href="© Disney, All Rights Reserved">${Resource.msg('footer.buttom.link.termOfUse','footer',null)}  </a> <span>|<span>
+                <a href="© Disney, All Rights Reserved">${Resource.msg('footer.buttom.link.additionalContent','footer',null)}  </a><span>|<span>
+                <a href="© Disney, All Rights Reserved">${Resource.msg('footer.buttom.link.privacyPolicy','footer',null)} </a> <span>|<span>
+                <a href="© Disney, All Rights Reserved">${Resource.msg('footer.buttom.link.personalInformation','footer',null)} </a> <span>|<span>
+                <a href="© Disney, All Rights Reserved">${Resource.msg('footer.buttom.link.childrensPrivacyPolicy','footer',null)}  </a> <span>|<span>
+                <a href="© Disney, All Rights Reserved">${Resource.msg('footer.buttom.link.ads','footer',null)} </a> <span>|<span>
+                <a href="© Disney, All Rights Reserved">${Resource.msg('footer.buttom.link.california','footer',null)}</a>
             </div>
         </div>
 
     </div>
-
 
 </div>
