@@ -27,20 +27,20 @@
                     <div>
                         <ul class="navbar-left">
                             <li>
-                                <a href="https://support.shopdisney.com/hc/en-us">Guest Services</a>
+                                <a href="https://support.shopdisney.com/hc/en-us">${Resource.msg('link.header.guest', 'middleHeader', null)}</a>
                             </li>
                             <li>
-                                <a href="https://www.shopdisney.com/disney-visa-card.html?CELL=63NG06">Disney® Visa®
-                                    Card</a>
+                                <a href="https://www.shopdisney.com/disney-visa-card.html?CELL=63NG06">${Resource.msg('link.header.payment', 'middleHeader', null)}</a>
                             </li>
                             <li>
-                                <a href="https://www.shopdisney.com/store-locator">Store Locator</a>
+                                <a href="https://www.shopdisney.com/store-locator">${Resource.msg('link.header.stores', 'middleHeader', null)}</a>
                             </li>
                         </ul>
                     </div>
                     <div class="navbar-header brand">
-                        <a class="logo-home" href="${URLUtils.url('Home-Show')}" title="${Resource.msgf('global.homepage.tooltip', 'common', null, Resource.msg('global.storename', 'common', null), Resource.msg(
-                                                                                        'global.home', 'common', null))}">
+                        <a class="logo-home" href="${URLUtils.url('Home-Show')}"
+                            title="${Resource.msgf('global.homepage.tooltip', 'common', null, Resource.msg('global.storename', 'common', null), Resource.msg(
+                                   'global.home', 'common', null))}">
                             <img class="hidden-md-down disney-banner" src="${URLUtils.staticURL('/images/logo.svg')}"
                                 alt="${Resource.msg('global.storename', 'common', null)}" />
                             <img class="d-lg-none" src="${URLUtils.staticURL('/images/logo-small.svg')}"
@@ -53,7 +53,9 @@
                                 <isinclude url="${URLUtils.url('Account-Header')}" />
                                 <div class="subscribe-header-box">
                                     <div class="subscribe-header-icon"></div>
-                                    <a class="subscribe-header" href="${URLUtils.url('Subscribe')}">Subscribe</a>
+                                    <a class="subscribe-header" href="${URLUtils.url('Subscribe')}">
+                                        ${Resource.msg('link.header.subscribe', 'middleHeader', null)}
+                                    </a>
                                 </div>
                                 <isinclude url="${URLUtils.url('Page-Locale')}" />
                             </div>

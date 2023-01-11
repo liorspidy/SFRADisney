@@ -3,7 +3,7 @@
         <a class="login-icon-a" href="${URLUtils.https('Login-Show')}" role="button"
             aria-label="${Resource.msg('label.header.loginbutton', 'account', null)}">
             <div class="login-icon"></div>
-            <span class="user-message">${Resource.msg('link.header.login', 'account', null)}</span>
+            <span class="user-message">${Resource.msg('link.header.login', 'middleHeader', null)}</span>
         </a>
     </div>
 <iselse/>

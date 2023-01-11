@@ -87,6 +87,9 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    span{
+        margin-left: 10px;
+    }
     h6 {
         width: 4rem;
     }
@@ -116,6 +119,14 @@
     align-items: center !important;
     justify-content: center !important;
 }
+
+.header-banner .close-button .close {
+    background-color: transparent !important;
+    height: 70% !important;
+
+}
+
+
 
 .login-icon-a {
     display: flex;

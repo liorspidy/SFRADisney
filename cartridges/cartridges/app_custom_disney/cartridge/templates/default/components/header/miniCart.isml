@@ -4,9 +4,11 @@
         aria-label="${Resource.msgf('minicart.count', 'common', null, pdict.quantityTotal)}" aria-haspopup="true">
         <div class="minicart-icon"></div>
         <div class="minicart-qty">
-            <h6>My Bag</h6>
-            (
-            <isprint value="${pdict.quantityTotal}" formatter="##" /> )
+            <span> ${Resource.msg('link.header.cart', 'middleHeader', null)}
+                (
+                <isprint value="${pdict.quantityTotal}" formatter="##" /> )
+            </span>
+
         </div>
     </a>
 </div>

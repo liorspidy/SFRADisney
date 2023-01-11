@@ -121,6 +121,9 @@
       -ms-flex-align: center;
           align-items: center;
 }
+.minicart-qty span {
+  margin-left: 10px;
+}
 .minicart-qty h6 {
   width: 4rem;
 }
@@ -161,6 +164,11 @@
   -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
           justify-content: center !important;
+}
+
+.header-banner .close-button .close {
+  background-color: transparent !important;
+  height: 70% !important;
 }
 
 .login-icon-a {
