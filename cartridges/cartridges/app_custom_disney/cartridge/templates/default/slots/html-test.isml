@@ -1,4 +1,4 @@
-<div class="html-test">
+<div class="html-test mt-2">
     <isif condition="${slotcontent != null}">
         <isloop items="${slotcontent.content}" var="markupText">
             <isprint value="${markupText.markup}" encoding="off" />
