@@ -117,7 +117,8 @@
 .hidden-md-down {
     display: flex !important;
     align-items: center !important;
-    justify-content: center !important;
+    justify-content: space-between !important;
+    width: 100%;
 }
 
 .header-banner .close-button .close {
@@ -126,13 +127,46 @@
 
 }
 
+.fa-sign-in:before {
+    color: #0075e3;
+    font-size: 1.5rem !important;
+}
 
+#myaccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.fa-heart{
+ color: #0075e3;
+}
 .login-icon-a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.wishlist-icon{
+    background: transparent;
+    width:41px;
+    height: 33px;
+    scale: 0.5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns:xlink='http://www.w3.org/1999/xlink' width='41' height='33' viewBox='0 0 41 33' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.5766 6.6659C25.5904 -3.33543 41.5769 0.750716 40.0564 12.3087C38.9056 19.0411 23.8232 32 20.5766 32C17.2478 32 2.28866 18.5352 1.13796 12.2698C-0.670286 0.750716 15.8094 -2.86844 20.5766 6.6659Z' fill='%230075E3' stroke='%230075E3' stroke-width='1.5'%3E%3C/path%3E%3C/svg%3E") !important;
+}
+
+.wishlist-icon-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wishlist-icon-a:hover {
+    color: #0075e3;
+    text-decoration: none;
+}
+
+
 
 .login-icon-a:hover {
     color: #0075e3;
